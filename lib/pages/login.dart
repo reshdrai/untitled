@@ -45,7 +45,8 @@ class loginState extends State<login>{
                    color: Colors.white,
                    borderRadius: BorderRadius.circular(15)
                  ),
-                 child: Text("Email", style: TextStyle(color: Colors.grey, fontSize: 12),),
+                 child:Center(
+                 child: Text("Email", style: TextStyle(color: Colors.grey, fontSize: 12),),)
                ),
                SizedBox(height: 15,),
                Container(
@@ -55,17 +56,21 @@ class loginState extends State<login>{
                      color: Colors.white,
                      borderRadius: BorderRadius.circular(15)
                  ),
-                 child: Text("Password", style: TextStyle(color: Colors.grey, fontSize: 12),),
+                 child:Center(
+                 child: Text("Password", style: TextStyle(color: Colors.grey, fontSize: 12),),)
                ),
                SizedBox(height: 25,),
                Container(
-                 height: 50,
+                 height: 40,
                  width: size.width/4,
                  decoration: BoxDecoration(
-                     color: Colors.white,
+                     color: Colors.brown,
                      borderRadius: BorderRadius.circular(15)
                  ),
-                 child: Text("Password", style: TextStyle(color: Colors.grey, fontSize: 12),),
+
+                 child:Center(
+
+                 child: Text("Signin", style: TextStyle(color: Colors.grey, fontSize: 12),),)
                )
              ],
 
